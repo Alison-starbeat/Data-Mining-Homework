@@ -22,6 +22,14 @@ A collection of homework
     --- hw4.py
     采用数据集为yelp，经过预处理得到了100个物品、100个用户（包含具体信息），以及100条交互记录文本
     --- hw4.ipynb
+    
+    -- homework5
+    --- 报告.ipynb
+    包含数据预处理、数据分析
+    --- pdf
+    报告pdf版本
+    --- cnews
+    数据集应该存放的部分，内应含stopwords.txt\cnews.test.txt，需要自行下载
 
 ### 作业3说明
 
@@ -33,3 +41,11 @@ movieLen数据集包含3个表格，通过查看和分析，仅对rating.dat进�
 
 首先处理Yelp数据集，仅保留user：user_id,avg_stars,cool,funny,useful，item:item_id（bussiness_id），以及review: user_id, bussiness_id, stars, text
 然后进行关联规则规定和挖掘
+
+### 作业5说明
+
+挖掘对象：cnews数据集（新闻数据集），地址：https://blog.csdn.net/qq_36047533/article/details/88360833
+
+选题背景：新闻无处不在，不同用户对新闻的偏好也是不同的，因此对新闻分类是极其有必要的。分类后的新闻可以按照类别进行呈现，方便观看。
+
+本实验采用了test文件-cnews的文本部分，分类标签仅作为评测指标使用。
